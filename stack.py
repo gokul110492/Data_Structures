@@ -22,6 +22,7 @@ class Stack():
         """ Print all elements in the stack """
         return self.items
         
+"""
 s=Stack()
 print(s.is_empty())
 s.push(5)
@@ -30,3 +31,4 @@ s.push(2)
 print(s.peek())
 print(s.pop())
 print(s.get_stack())
+"""
