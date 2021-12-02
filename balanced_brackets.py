@@ -1,27 +1,5 @@
-"""
-
-Stack Implementation
-
-"""
-class Stack():
-    def __init__(self):
-        self.items=[]
-
-    def push(self, item):
-        self.items.append(item)
-    
-    def pop(self):
-        return self.items.pop()
-        
-    def is_empty(self):
-        return self.items == []
-        
-    def peek(self):
-        return self.items[-1]
-    
-    def get_stack(self):
-        return self.items
-        
+from stack import Stack
+ 
 def is_match(p1, p2):
     if p1 == '(' and p2 == ')':
         return True
